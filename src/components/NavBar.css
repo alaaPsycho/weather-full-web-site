@@ -1,0 +1,60 @@
+.navBar{
+    display: flex;
+    justify-content: center;
+   background: transparent;
+    padding: 0 1rem;
+   z-index: 9999;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+
+
+ .navBar  .logo{
+    font-size: 4rem;
+    color: #fff;
+ }
+
+
+
+
+  
+  
+
+ .navBar .links{
+ 
+   
+
+ }
+
+ .navBar .links .link{
+  margin: 0 4rem;
+    font-size: 2rem;
+    color: rgba(255,255,255,.6);;
+    text-decoration: none;
+ }
+
+
+ .navBar .links .link:hover{
+   border-bottom: .5rem solid #fff;
+  }
+
+
+
+
+
+
+   @media screen and (max-width:991PX) {
+
+    .navBar{
+        display: flex;
+        justify-content: space-around;
+           }
+    
+    .navBar .nav-input {
+        display: none;
+    
+     }
+   }
