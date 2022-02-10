@@ -1,60 +1,184 @@
+
 .navBar{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
    background: transparent;
     padding: 0 1rem;
    z-index: 9999;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+   border-bottom: .2rem solid #8d8e8f;;
+   align-items: center;
+   
+
+}
+
+.navBar.active{
+   display: flex;
+   justify-content: center;
+  position: fixed;
+  width: 100vw;
+  border:none;
+  box-shadow: 0 .3rem .6rem rgba(0, 0, 0, .5);
+  transition: all .5s linear;
+background-color: #111;
+color: #fff;
+top: 0;
+left: 0;
+right: 0;
+}
+
+.navBar .nav-logo .logo {
+ font-size: 2rem;
+ text-decoration: none;
+ letter-spacing: .5rem;
+ color:#067eb3;
+ }
+ 
+
+.navBar .nav-logo .logo img{
+  width: 5rem;
+height: 5rem;
+object-fit: cover;
+border-radius: 5rem;
 }
 
 
+.navBar.links{
+
+}
+.navBar .links .link{
+   font-size: 2rem;
+   text-decoration: none;
+   color: #8d8e8f;
+margin: 0 1rem;
+}
+
+.navBar .links .link:hover{
+   color: #557db9;
+
+}
+
+.navBar .links .link.active{
+   color: #0d6efd;
+
+}
 
 
- .navBar  .logo{
-    font-size: 4rem;
-    color: #fff;
- }
+.navBar .buttons-app{
+}
+.navBar .buttons-app button:not(:last-child){
+padding: .5rem 4rem;
+margin: 0 1rem;
+border-radius: .5rem;
+font-size: 2rem;
+}
 
+.navBar .buttons-app .sign-up{
+  background-color: #067eb3;
+  color: #fff;
+  font-weight: 800;
 
+}
 
+   .navBar .buttons-app .sign-up:hover{
+      transform: scale(1.05);
+       }
+    
 
-  
-  
+   .navBar .buttons-app .login{
+     background-color: transparent;
+      color: #8d8e8f;
+    border: .1rem solid #8d8e8f;
+    padding: .5rem 2rem !important;
 
- .navBar .links{
- 
-   
+       }
+       .navBar .buttons-app .login:hover{    
+          color: #0d6efd;
+          border: .1rem solid #0d6efd;
 
- }
-
- .navBar .links .link{
-  margin: 0 4rem;
-    font-size: 2rem;
-    color: rgba(255,255,255,.6);;
-    text-decoration: none;
- }
-
-
- .navBar .links .link:hover{
-   border-bottom: .5rem solid #fff;
-  }
-
-
-
-
-
-
-   @media screen and (max-width:991PX) {
-
-    .navBar{
-        display: flex;
-        justify-content: space-around;
            }
     
-    .navBar .nav-input {
-        display: none;
-    
-     }
-   }
+       .navBar .buttons-app button:last-of-type{
+        border: none;
+        font-size: 2rem;
+        background-color: transparent;
+        color: #8d8e8f;
+         }
+         .navBar .buttons-app button:last-of-type:hover{
+           color: #0d6efd;
+             }
+         
+             /*
+             .navBar .icons-app i{
+               color: #8d8e8f;
+               font-size: 3rem;
+               margin: 0 1rem;
+               cursor: pointer;
+                 }
+                 .navBar .icons-app i:hover{
+                  color: #0d6efd;
+                  
+                    }
+                    */
+
+
+
+
+                    .navBar .buttons-app button.active{
+                      color: #0066ff;
+                      background-color: #fff;
+                      border: .1rem solid #0066ff;
+
+                    }              
+                    .navBar .buttons-app button.active:last-of-type{
+                     color: #0066ff;
+                     border: none;
+
+                   }              
+
+
+
+
+/*media*/
+
+        @media  screen and (max-width: 991PX) {
+
+         .navBar{
+        padding-top: 1rem;
+           
+        
+        }
+        
+        
+         
+
+         .navBar .nav-logo .logo {
+            font-size: 1.5rem;
+        
+            }
+            .navBar .nav-logo .logo img{
+               width:4rem;
+             height: 4rem;
+             object-fit: cover;
+             }
+             .navBar .links .link{
+               font-size: 1.5rem;
+           
+            }
+
+            .navBar .buttons-app button:not(:last-child){
+               padding: .5rem 2rem;
+               margin: 0 1rem;
+               border-radius: .5rem;
+               font-size: 1.5rem;
+               }
+               .navBar .buttons-app button:last-of-type{
+                  font-size:1.5rem;
+                   }
+
+
+                   .navBar .buttons-app{
+                     display: flex;
+                     justify-content: center;
+                  }
+                         
+        }

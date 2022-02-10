@@ -1,0 +1,131 @@
+.footer{
+    background-color: rgb(15, 15, 15);
+    margin-bottom: -2rem;
+
+  }
+.footer .container{
+  }
+
+  .footer .container .box {
+    padding-top: 5rem;
+  }
+
+   .footer .container .box:first-of-type i{
+       margin-right: 1rem;
+       font-size: 2rem;
+    color:#067eb3; ;}
+
+    .footer .container .box:first-of-type .icons a i {
+    font-size: 3rem;
+    margin: 0 1rem;
+  }
+
+   .footer .container .box:first-of-type h1{
+   font-weight: 800;
+       color: #fff;
+   font-size: 5rem;}
+
+   .footer .container .box:first-of-type p{
+    font-weight: 800;
+   
+    
+        color: #fff;
+    font-size: 1.6rem;}
+
+  
+
+    .footer .container .box h3{
+        padding-top: 3rem;
+        color: #fff;
+        font-size: 2rem;
+        font-weight: 800;
+        padding-bottom: 2rem;
+        border-bottom:.3rem solid #067eb3;
+      }
+
+    .footer .container .box p{
+        color: #fff;
+        font-size: 1.6rem;
+        transition: none;
+      }
+
+    
+      .footer .container .box i{
+        color: #067eb3;
+        font-size: 1rem;
+      }
+    
+      .footer .container .box a{
+        text-decoration: none;
+        color: #fff;
+      }
+      .footer .container .box a:hover{
+        text-decoration: none;
+        color: #067eb3;
+      }
+    
+
+      .footer .container .box input{
+        width:15rem;
+        padding: .6rem .2rem;
+        font-size: 1.6rem;
+         
+      }
+      .footer .container .box button{
+   padding: .6rem .2rem;
+       color: #fff;
+       background-color: #067eb3;;
+       border-radius: 0rem .4rem  .4rem 0;
+       font-size: 1.6rem;
+
+         }
+       
+         .footer .container .box:nth-child(2) p,.footer .container .box:nth-child(3) p{
+           line-height:3rem;
+             
+          }
+
+          .footer .container .box:last-child P{
+            line-height:3rem;
+                       }
+
+
+
+           .footer  .copy-right {
+               width: 80%;
+               border-top: .3rem solid #fff;
+
+               margin: 3rem auto 0;
+               color: #fff;
+               padding-top: 1rem;
+
+               
+           }
+           .footer  .copy-right p{
+            color: #fff;
+            font-size: 1.6rem;
+        }
+        .footer  .copy-right p span{
+            color: #067eb3;
+           font-weight: bold;
+        }
+
+
+
+
+
+        @media screen and (max-width:991PX){
+
+      
+            .footer .container .box:first-of-type .icons a i {
+                font-size: 2rem;
+                margin:  .5rem;
+              }
+            
+
+        
+              .footer .container .box h3{
+                color: #067eb3;
+                border-bottom:none;
+              }
+        }

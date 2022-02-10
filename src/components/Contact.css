@@ -1,0 +1,202 @@
+.contact{
+ 
+          }     
+
+.contact .heading{
+   text-align: center;
+   font-size: 4rem;
+   font-weight: bolder;
+   position: relative;
+   width: 22rem;
+   margin: 2rem auto 4rem;
+}
+
+.contact .heading::before{
+   content: '';
+   position: absolute;
+   height: 1rem;
+   width: 1rem;
+   border-radius: 5rem;
+   background-color: #067eb3;;
+   left: 0;
+   top: 50%;
+}
+
+
+
+
+
+.contact .heading::after{
+   content: '';
+   position: absolute;
+   height: 1rem;
+   width: 1rem;
+   border-radius: 5rem;
+   background-color:#067eb3 /*#ff5500*/;
+   right: 0;
+   top: 50%;
+}
+
+.contact .col-12{
+   width: 100%;
+
+}
+
+.contact .img-container {
+   width: 100%;
+   position: relative;
+}
+.contact .img-container img{
+   width: 100%;
+   height: 40rem;
+   filter: blur(.1rem);
+   object-fit: cover;
+
+}
+
+
+.contact .img-container .content{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+.contact .img-container .content h3{
+color: #fff;
+font-size: 4rem;
+font-weight: 800;
+text-shadow: .1rem .3rem #000;
+margin:0rem 0 3rem;
+ }
+ .contact .img-container .content h3::first-letter{
+ text-transform: uppercase;
+    }
+    .contact .img-container .content p{
+    color: #fff;
+    font-size: 2rem;
+font-weight: 800;
+text-shadow: .1rem .2rem black;
+margin: 0 0 2rem;
+
+         }
+         
+         .contact .img-container .content button{
+            font-size: 2rem;
+            font-weight: bold;
+            padding: .8rem 4rem;
+            background-color: #067eb3;
+            color: #fff;
+          border-radius: .1rem;
+          transition: all .3s linear;
+         }
+               
+
+ 
+         
+
+
+
+         .contact .box{
+      box-shadow: .1rem .1rem 1rem #000;
+      position: relative;
+      bottom: 5rem;
+      background-color: #fff;
+      border-radius: .4rem;
+         }
+         .contact .box i{
+            padding: 1rem 0; 
+               }
+       
+               .contact .box p{
+               color: #666;
+               padding: 1rem 0 0; 
+               font-size: 1.4rem;
+
+                     }
+                     .contact .box a{
+                       display: block;
+                        font-size: 1.6rem;
+
+                              }                             
+                              .contact .box a:last-of-type{
+                                  padding: 0rem 0 1rem; 
+          
+                                        }     
+                              .contact .box button{
+                                 font-size: 1.4rem;
+                                 font-weight: bold;
+                                 padding: .8rem 2rem;
+                                 background-color: #067eb3;
+                                 color: #fff;
+                               border-radius: .1rem;
+                               transition: all .3s linear;
+          
+                                        }                                                 
+  
+        
+            .contact .icon-app{
+               position: absolute;
+               left: 2rem;
+               bottom: 2rem;
+               width: 6rem;
+               height: 6rem;
+               background-color: #666;
+               border-radius: 6rem;
+               cursor: pointer;
+            }
+
+            .contact .icon-app:hover{
+         
+               background-color: #444;
+               
+            }
+
+
+            .contact .icon-app i{
+         
+               color: #fff;
+               line-height: 6rem;
+            }
+
+
+
+    @media screen and (max-width:991PX){
+      .contact{
+         padding: 0 2rem;
+      }  
+      .contact .img-container .content h3{
+         font-size: 3rem;
+         margin:0rem 0 2rem;
+          }
+     
+             .contact .img-container .content p:first-of-type{
+      
+         margin: 0 ;
+         font-size: 1.6rem;
+         
+                  }
+                  .contact .img-container .content p:last-of-type{
+      
+                     margin: 0   0 .5rem;
+                     font-size: 1.6rem;
+                     
+                              }
+     
+
+                              .contact .box{
+                                 width: 50rem;
+                             margin-bottom: 1rem;
+
+                                    }    
+                                       
+                                              
+                 
+                                    
+                                    .contact .icon-app{
+                                       position: relative;
+                                       bottom: 2rem;
+                                       right: 0;
+                                     
+                                    }                              
+                                                  
+  }                                      

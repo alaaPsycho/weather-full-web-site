@@ -1,0 +1,211 @@
+.earth{
+    padding: 10rem 0;
+}
+
+.earth .heading{
+  text-align: center;
+  font-size: 4rem;
+  font-weight: bolder;
+  position: relative;
+  width: 29rem;
+  margin: 0 auto 8rem;
+  white-space: nowrap;
+}
+
+.earth .heading::before{
+  content: '';
+  position: absolute;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 5rem;
+  background-color: #067eb3;
+  left: 0;
+  top: 50%;
+}
+
+
+
+
+
+.earth .heading::after{
+  content: '';
+  position: absolute;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 5rem;
+  background-color: #067eb3;
+  right: 0;
+  top: 50%;
+}
+
+
+.earth .app-container {
+   background-color: #6397d5;
+  border-radius: .3rem;
+  padding: 2rem;
+  position: relative;
+
+}
+.earth .app-container h1{
+text-align: left;
+color: #fff;
+font-weight: 800;
+}
+.earth .app-container img{
+    height: 40rem;
+    width: 40rem;
+border-radius: 100%;
+  filter: sepia(100%) hue-rotate(190deg) saturate(500%);
+  z-index: -1;
+}
+
+
+.earth .contries  .contry{
+background-color: rgba(0, 0, 0, .4);
+width:8rem;
+height: 3rem;
+display: flex;
+justify-content: space-between;
+border-radius: .3rem;
+overflow: hidden;
+
+}
+
+.earth .contries  .contry:hover{
+  background-color: rgba(0, 0, 0, .6);
+  
+  }
+
+  .earth .contries  .contry:hover p{
+   text-decoration:wavy;
+   font-weight: 600;
+    }
+  
+
+.earth .contries  .contry p{
+  color: aliceblue;
+  font-size: 1.6rem;
+ line-height: 2.6rem;
+  }
+  
+
+  .earth .contries  .contry i{
+    width: 3rem;
+    font-size:1.6rem;
+    height: 3rem;
+  background-color: aliceblue;
+  line-height: 2.6rem;
+  color: #aaa;
+
+  }
+  
+
+
+  .earth .contries  .contry:first-of-type{
+   position: absolute;
+   left:55%;
+   top: 25%;
+    
+    }
+   
+   
+    .earth .contries  .contry:nth-child(2){
+      position: absolute;
+      left:52%;
+      top: 38%;
+       
+       }   
+
+
+       .earth .contries  .contry:nth-child(2) i{
+       color: gold;
+         
+         }   
+       .earth .contries  .contry:nth-child(3){
+        position: absolute;
+        left:42%;
+        top: 58%;
+         
+         }       
+
+         .earth .contries  .contry:nth-child(4){
+          position: absolute;
+          left:55%;
+          top: 70%;
+        
+           
+           }        
+
+       
+           .earth .contries  .contry:nth-child(5){
+            position: absolute;
+            left:38%;
+            top: 24%;
+          
+             
+             }            
+
+             .earth .contries  .contry:nth-child(6){
+              position: absolute;
+              left:56%;
+              top: 45%;
+               
+            
+               
+               }               
+               .earth .contries  .contry:nth-child(6) i{
+               color: gold;
+                 
+              
+                 
+                 }    
+               .earth .contries  .contry:nth-child(7){
+                position: absolute;
+                left:40%;
+                top: 75%;
+                 
+              
+                 
+                 }                   
+
+
+
+
+
+
+                 .earth .app-container .detailed-map{
+                text-align: right;
+                background-color: rgba(0, 0, 0, .6);
+               width: 14rem;
+               height: 4rem;
+               position: relative;
+              }                
+              .earth .app-container .detailed-map:hover{
+                background-color: rgba(0, 0, 0, .8);
+               
+              }                
+
+              .earth .app-container .detailed-map:hover span,i{
+                font-weight: 800;
+               
+              }                
+
+              .earth .app-container .detailed-map i{
+                position: absolute;
+                left: 5%;
+                top: 50%;
+                transform: translateY(-50%);
+               font-size: 2rem;
+               color: #fff;
+               cursor: pointer;
+              }                
+
+              .earth .app-container .detailed-map span{
+                position: absolute;
+                left:30%;
+                top: 50%;
+                transform: translateY(-50%);
+               font-size:1.2rem;
+               color: #fff;
+               cursor: pointer;
+              }      

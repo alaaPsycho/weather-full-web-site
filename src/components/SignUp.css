@@ -1,0 +1,109 @@
+.sign-up{
+
+}
+.sign-up .sign-up-app{
+    margin:12rem auto 22rem;
+    box-shadow: 0rem .2rem .8rem .4rem rgba(0, 0, 0, .4);
+    max-width: 50rem;
+    border-radius: .6rem;
+
+}
+
+.sign-up .sign-up-app h3{
+  padding: 1rem 0;
+font-size: 2REM;}
+
+.sign-up .sign-up-app .icons a {
+ 
+ }
+ 
+
+.sign-up .sign-up-app .icons a img{
+    width: 4rem;
+    height: 4rem;
+    object-fit: cover;  
+
+}
+
+.sign-up .sign-up-app .p-app {
+
+}
+
+.sign-up .sign-up-app .p-app {
+
+}
+
+.sign-up .sign-up-app .p-app p{
+    position: relative;
+    width: 20rem;
+    margin: 1rem auto;
+    font-size: 1.8rem;
+
+   
+   }
+.sign-up .sign-up-app .p-app p::before{
+ content:'';
+ position: absolute;
+ left: 0rem;
+ top: 2rem;
+ height: .1rem;
+  width: 8rem;
+ background-color: #666;
+
+}
+.sign-up .sign-up-app .p-app p::after{
+    content:'';
+    position: absolute;
+    right: 0rem;
+    top: 2rem;
+    height: .1rem;
+     width: 8rem;
+    background-color: #666;
+   
+   }
+
+
+
+
+
+   .sign-up .sign-up-app form{
+   
+    margin: 1rem 0;
+   }
+
+   .sign-up .sign-up-app form p{
+    color: #067eb3;
+    font-weight: 800;
+    font-size: 2rem;
+    margin:0;
+   }
+
+   .sign-up .sign-up-app form input{
+    border-bottom: .1rem solid #777;
+    font-size: 2rem;
+    width: inherit;
+    border-radius: .5rem;
+    margin:  1rem 0;
+    width: 40rem;
+    color: #111;
+   } 
+
+
+
+
+   .sign-up .sign-up-app .button-app button{
+    font-size: 2rem;
+    padding: .5rem 3rem;
+    background-color: #067eb3;
+   color: #fff;
+   border-radius: .2rem;
+   font-weight: bolder;
+   margin: 2rem 0 0;
+ 
+    }
+ 
+ 
+    .sign-up .sign-up-app .button-app button:hover{
+   letter-spacing: .1rem;
+  
+     }   

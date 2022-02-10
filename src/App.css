@@ -1,7 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap');
+
+
+/*@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,700&display=swap');*/
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+
+
 .App {
   text-align: center;
 }
-
+html{
+  overflow-x: hidden;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -46,8 +65,24 @@
   perspective: none;
   list-style: none;
   transition: all .3s ease;
+
+  font-family: 'Roboto', sans-serif;
+
+ }
+h1{
+ 
+  font-family: 'Supermercado One', cursive;
+
 }
+
+
+  h2,h3,h4,h5,h6{
+    font-family: 'Rowdies', cursive;
+ 
+  }
+
 
 html{
   font-size: 62.5%;
 }
+

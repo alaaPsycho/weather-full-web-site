@@ -1,0 +1,67 @@
+.cards-app {
+    
+    padding: 10rem 0;
+}
+
+
+.cards-app .heading{
+   text-align: center;
+   font-size: 4rem;
+   font-weight: bolder;
+   position: relative;
+   width: 35rem;
+   margin: 0 auto 8rem;
+   white-space: nowrap;
+}
+
+.cards-app .heading::before{
+   content: '';
+   position: absolute;
+   height: 1rem;
+   width: 1rem;
+   border-radius: 5rem;
+   background-color: #067eb3;
+   left: 0;
+   top: 50%;
+}
+
+.cards-app .heading::after{
+    content: '';
+    position: absolute;
+    height: 1rem;
+    width: 1rem;
+    border-radius: 5rem;
+    background-color: #067eb3;
+    right: 0;
+    top: 50%;
+ }
+.cards-app .card{
+    
+    border: none;
+}
+
+
+.cards-app .card h3{
+    
+    font-weight: 800;
+}
+.cards-app .card span{
+    font-size: 3rem;
+    font-weight: 800;
+    color: #aaa;
+}
+
+
+.cards-app .card .img-app{
+}
+.cards-app .card .img-app img{
+    width: 10rem;
+    height: 10rem;
+    object-fit: cover;
+
+ }
+
+ .cards-app .card  p{
+    font-size: 2rem;
+
+ }

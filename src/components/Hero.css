@@ -30,20 +30,21 @@
     font-weight: bold;
     color: #fff;
     width: 100rem;
+    margin-bottom: 4rem;
    
  }
  .slider-app .overlay .content button{
     font-size: 3rem;
     font-weight: bold;
-    padding: 2rem 10rem;
-    background-color: rgba(0,0,0,.9);
+    padding: 1rem 10rem;
+    background-color: #067eb3;
     color: #fff;
   border-radius: .5rem;
   transition: all .3s linear;
  }
  .slider-app .overlay .content button:hover{
    letter-spacing: .1rem;
-   color: rgba(0,0,0,.9);
+   color: #067eb3;
     background-color: #fff;
 
  }

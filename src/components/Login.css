@@ -1,0 +1,87 @@
+.login{
+
+}
+
+
+.login .login-app{
+    max-width: 50rem;
+  margin:12rem auto 20rem;
+  background-color: #8EC5FC;
+  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+  border-radius: .6rem;
+  box-shadow: 0 .4rem .8rem rgba(0, 0, 0, .4);
+  }
+
+
+.login .login-app .icon-app i.big-icon{
+   font-size: 6rem;
+   height: 10rem;
+   width: 10rem;
+   border-radius: 6rem;
+   background: #fff;
+  line-height: 10rem;
+  margin: 1rem 0;
+}
+
+.login .login-app form{
+ }
+
+ .login .login-app form div{
+    margin:  2rem 0;
+  }
+
+  .login .login-app form div input{
+    background-color:  rgba(0, 0, 0, .4);
+    width: 80%;
+    height: 4rem;
+    border-radius: .2rem;
+    color: #fff;
+    font-size: 2rem;
+    padding: 1rem;
+  }
+  .login .login-app form div input::placeholder{
+  
+    color: #999;
+  
+  }
+  .login .login-app form div i{
+      display: block;
+    font-size: 2rem;
+    margin: .5rem 0;
+    color: #666;
+  }
+
+
+  .login .login-app .checkbox-app{
+   display: flex;
+   justify-content: space-around;
+}
+
+
+
+.login .login-app .checkbox-app a{
+    font-size: 1.4rem;
+    line-height: .5rem;
+
+ }
+
+.login .login-app .button-app{
+  margin:  2rem 0;
+ }
+
+
+ .login .login-app .button-app button{
+   font-size: 2rem;
+   padding: .5rem 3rem;
+   background-color: #fff;
+  color: #067eb3;
+  border-radius: .1rem;
+  font-weight: bolder;
+
+   }
+
+
+   .login .login-app .button-app button:hover{
+  letter-spacing: .1rem;
+ 
+    } 
